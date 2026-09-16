@@ -1,0 +1,17 @@
+﻿# Modelos e runtime (pesados demais pro GitHub)
+models/
+runtime/
+
+# Gerados durante a execucao
+logs/
+data/
+
+# Configuracao local (pode ter chaves/tokens)
+config.json
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
