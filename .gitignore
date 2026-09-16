@@ -1,5 +1,19 @@
-﻿# Modelos e runtime (pesados demais pro GitHub)
-models/
+﻿# Arquivos de modelo (pesados demais pro GitHub)
+# A pasta models/ sobe, mas os modelos nao
+models/**/*.gguf
+models/**/*.ggml
+models/**/*.safetensors
+models/**/*.bin
+models/**/*.pt
+models/**/*.pth
+models/**/*.ckpt
+models/**/*.onnx
+models/**/*.h5
+models/**/*.tflite
+models/**/*.part
+models/**/*.tmp
+
+# Runtime (pesado demais pro GitHub)
 runtime/
 
 # Gerados durante a execucao
